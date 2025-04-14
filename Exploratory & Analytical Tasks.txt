@@ -1,0 +1,53 @@
+Exploratory & Analytical Tasks
+
+
+Explore Data Columns
+→ Select the key columns you'll need for your analysis from the CovidDeaths table. Focus on fields like location, date, case counts, and population.
+
+Total Cases vs. Total Deaths
+→ Write a query that calculates the total number of cases and the total number of deaths per location.
+
+Death Rate Analysis
+→ Determine the likelihood of death upon infection by computing the death percentage for each location over time.
+
+Infection Rate by Population
+→ Write a query to find what percentage of the population has been infected in each country.
+
+Countries with Highest Infection Rates
+→ Identify countries that have the highest percentage of infected population relative to their total population.
+
+Countries with the Highest Death Rates
+→ Calculate which countries have the highest percentage of deaths relative to their population.
+
+Countries with the Highest Absolute Death Counts
+→ List the top countries by the number of recorded deaths due to COVID-19.
+
+Continental Comparison
+→ Find the continents with the highest total death counts. Use aggregation and grouping functions.
+
+Find Misclassified Locations
+→ Retrieve data where a continent might be stored in the 'location' column. Are continents accidentally labeled as countries?
+
+🌍 Global View Tasks
+
+
+Global Daily Stats
+→ Summarize total new COVID-19 cases and deaths globally per day. What is the daily death percentage across all countries?
+
+Global Summary
+→ Generate a single row showing total cases and deaths globally, and calculate the global death rate.
+
+💉 Vaccination Analysis Tasks
+
+
+Vaccination Rollout Tracking
+→ Write a query that shows the rolling number of vaccinated people for each location based on cumulative daily data.
+
+Vaccination Rate with CTE
+→ Use a CTE (Common Table Expression) to calculate what percentage of a country's population has been vaccinated over time.
+
+Vaccination Rate using Temp Table
+→ Create a temp table to calculate and store the vaccination rate (as a percentage of the population) for each country.
+
+Create a View for Visualization
+→ Create a SQL view that tracks rolling vaccinations and population. This view should be suitable for loading into Power BI or another visualization tool.
